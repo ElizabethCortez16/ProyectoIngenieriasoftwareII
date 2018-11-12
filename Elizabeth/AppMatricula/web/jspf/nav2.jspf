@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="principal2">J.C.M</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="registrarAlumno.jsp">REGISTRAR ALUMNO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="registrarApoderado.jsp">REGISTRAR APODERADO</a>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link" href="matriculaNueva.jsp">REGISTRAR M.NUEVA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="matriculaNormal.jsp">REGISTRAR M.NORMAL</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="reporteAlumno.jsp">REPORTE ALUMNO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="reporteApoderado.jsp">REPORTE APODERADO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="reporteMNuev.jsp">REPORTE M.NUEVA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="reporteMNorm.jsp">REPORTE M.NORMAL</a>
+            </li>
+        </ul>
+       <input type="submit" value="Cerrar Sesion" onclick=" location.href = 'index.jsp'"> 
+    </div>
+</nav>

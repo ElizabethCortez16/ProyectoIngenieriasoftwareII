@@ -1,0 +1,32 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="principal">J.C.M</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="registrarPersonal.jsp">REGISTRAR PERSONAL<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="registrarGradoyseccion.jsp">REGISTRAR GRADO Y SECCION</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="registrarVacantes.jsp">REGISTRAR VACANTES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="reportesPersonal.jsp">REPORTE PERSONAL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="reporteGradoyseccion.jsp">REPORTE GRADO Y SECCION</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="reporteVacantes.jsp">REPORTE VACANTES </a>
+            </li>
+        </ul>
+        <input type="submit" value="Cerrar Sesion" onclick=" location.href = 'index.jsp'"> 
+    </div>
+</nav>

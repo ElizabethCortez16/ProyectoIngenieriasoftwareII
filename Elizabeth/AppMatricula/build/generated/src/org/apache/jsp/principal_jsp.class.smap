@@ -1,0 +1,26 @@
+SMAP
+principal_jsp.java
+JSP
+*S JSP
+*F
++ 0 principal.jsp
+principal.jsp
++ 1 estilos.jspf
+jspf/estilos.jspf
++ 2 header.jspf
+jspf/header.jspf
++ 3 nav1.jspf
+jspf/nav1.jspf
+*L
+5,5:51
+9:55,2
+10,5:57
+1#1,9:62
+14#0,4:71
+1#2,6:75
+17#0,2:81
+1#3,19:83
+18#0:102
+19:103,3
+20,3:106
+*E
